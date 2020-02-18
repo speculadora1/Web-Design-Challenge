@@ -13,21 +13,42 @@ body {
     margin: 0px;
 }
 
+.bg-light {
+    background-color: white !important;
+}
+
+.bg-light .navbar-brand {
+    color: steelblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: steelblue;
+}
+
 .navbar {
-    background-color: white;
     border: 1px solid lightgray;
-    /* border-bottom: 1px solid lightgray;
-    border-right: 1px solid lightgray; */
     margin: 5px 20px 0px;
 }
 
 .nav-link, .dropdown-item, .navbar-brand {
-    color: dodgerblue;
+    color: steelblue;
     font-weight: bold;
 }
 
 .col-sm-7, .col-sm-5 {
     background-color: #f2f2f2;
+}
+
+.tableContainer {
+    margin: 5px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+
+.thead {
+    background-color: steelblue;
+    color: white;
 }
 
 .contentLeft {
@@ -44,6 +65,13 @@ body {
     border: 1px solid lightgray;
 }
 
+.comparison {
+    background-color: white;
+    padding: 15px 15px 15px;
+    margin: 5px;
+    border: 1px solid lightgray;
+}
+
 .main-content {
     width: 100%;
     height: auto;
@@ -54,9 +82,24 @@ body {
     height: auto;
 }
 
+.imgComparison {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
 h3 {
     font-weight: bold;
-    color: dodgerblue;
+    color: steelblue;
     border-bottom: 1px solid black;
     padding-bottom: 3px;
+}
+
+h4 {
+    font-weight: bold;
+    color: steelblue;
+    text-align: center;
 }
